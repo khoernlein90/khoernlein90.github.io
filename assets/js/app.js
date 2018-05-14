@@ -17,7 +17,7 @@ $(document)
         info: "A React game where the user has their memory tested! The user clicks an image, a" +
             "nd then needs to keep clicking images that they haven't clicked yet.",
         githubLink: "",
-        deployedLink: "",
+        deployedLink: "https://rocky-beach-84769.herokuapp.com/",
         technologies: ["React", "JavaScript", "CSS"]
       }, {
         imageName: "nyt-react",

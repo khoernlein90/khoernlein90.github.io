@@ -55,4 +55,7 @@
   .modal-body ul {
     padding: 20px 0;
   }
+  .modal-footer {
+    padding: 11px 7px;
+  }
 }
