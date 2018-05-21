@@ -10,109 +10,121 @@ $(document)
         $(".first-name").removeClass("white");
       });
 
-    const images = [
-      {
-        imageName: "react-clicky-game",
-        img: "./assets/images/clicky.png",
-        info: "A React game where the user has their memory tested! The user clicks an image, a" +
-            "nd then needs to keep clicking images that they haven't clicked yet.",
-        githubLink: "",
-        deployedLink: "https://rocky-beach-84769.herokuapp.com/",
-        technologies: ["React", "JavaScript", "CSS"]
-      }, {
-        imageName: "nyt-react",
-        img: "./assets/images/NYTReact.png",
-        info: "A Fullstack React application where the user can search the New York Times for a" +
-            "rticles of their choosing. The user can also save articles of interest to a data" +
-            "base.",
-        githubLink: "",
-        deployedLink: "",
-        technologies: [
-          "React",
-          "React Router",
-          "JavaScript",
-          "Axios",
-          "APIs",
-          "Express",
-          "Mongo"
-        ]
-      }, {
-        imageName: "react-burger-builder",
-        img: "./assets/images/burger.png",
-        info: "A React app that uses Google Firebase to store orders that a customer makes.",
-        githubLink: "",
-        deployedLink: "https://pacific-retreat-11922.herokuapp.com/",
-        technologies: ["React", "React Router", "JavaScript", "Firebase", "Axios"]
-      }, {
-        imageName: "react-youtube",
-        img: "./assets/images/youtube.png",
-        info: "A React app that takes the user input and automatically searches the Youtube API" +
-            " whenever the user types.",
-        githubLink: "",
-        deployedLink: "",
-        technologies: ["React", "JavaScript", "Bootstrap", "Youtube API"]
-      }, {
-        imageName: "giphy-movie-search",
-        img: "./assets/images/giphy.png",
-        info: "A web app which uses the Giphy API to search for movie GIFs (or any GIF for that" +
-            " matter). Entering a search term will add a new GIF button. Clicking on the GIFs" +
-            " will play/pause them! Enjoy!",
-        githubLink: "https://github.com/khoernlein90/GifTastic",
-        deployedLink: "https://khoernlein90.github.io/GifTastic/",
-        technologies: [
-          "HTML",
-          "CSS",
-          "Bootstrap",
-          "Javascript",
-          "jQuery",
-          "Giphy",
-          "API",
-          "Ajax"
-        ]
-      }, {
-        imageName: "hangman",
-        img: "./assets/images/hangman.png",
-        info: "A basic Hangman game where the user will have 10 guesses to try and figure out t" +
-            "he word in this animal themed game!",
-        githubLink: "https://github.com/khoernlein90/Hangman-Game",
-        deployedLink: "https://khoernlein90.github.io/Hangman-Game/",
-        technologies: ["HTML", "CSS", "Bootstrap", "Javascript"]
-      }, {
-        imageName: "crystal-collector",
-        img: "./assets/images/crystal.png",
-        info: "A fun browser game where the user has to try and make their score match the rand" +
-            "om number! ",
-        githubLink: "https://github.com/khoernlein90/CrystalCollector",
-        deployedLink: "https://khoernlein90.github.io/CrystalCollector/",
-        technologies: ["HTML", "CSS", "Bootstrap", "JavaScript", "jQuery"]
-      }, {
-        imageName: "train-scheduler",
-        img: "./assets/images/train.png",
-        info: "A web app where the user can schedule mock trains. The trains are timed and stor" +
-            "ed using Google Firebase.",
-        githubLink: "",
-        deployedLink: "",
-        technologies: [
-          "HTML",
-          "CSS",
-          "Bootstrap",
-          "Javascript",
-          "jQuery",
-          "Google",
-          "Firebase"
-        ]
-      }
-    ];
+    const images = [{
+      imageName: "react-clicky-game",
+      img: "./assets/images/clicky.png",
+      info: "A React game where the user has their memory tested! The user clicks an image, a" +
+        "nd then needs to keep clicking images that they haven't clicked yet.",
+      githubLink: "",
+      deployedLink: "https://rocky-beach-84769.herokuapp.com/",
+      technologies: ["React", "JavaScript", "CSS"]
+    }, {
+      imageName: "nyt-react",
+      img: "./assets/images/NYTReact.png",
+      info: "A Fullstack React application where the user can search the New York Times for a" +
+        "rticles of their choosing. The user can also save articles of interest to a data" +
+        "base.",
+      githubLink: "",
+      deployedLink: "",
+      technologies: [
+        "React",
+        "React Router",
+        "JavaScript",
+        "Axios",
+        "APIs",
+        "Express",
+        "Mongo"
+      ]
+    },{
+      imageName: "mongo-scraper",
+      img:"./assets/images/mongoScraper.png",
+      info: "A Full Stack app that scrapes the League of Legends page of reddit. The user also has the ability to save articles of interest to MongoDB. The user can also add comments on the articles that they save.",
+      githubLink: "",
+      deployedLink: "https://enigmatic-peak-65650.herokuapp.com/",
+      technologies: ["HTML, CSS, Express, Handlebars, Mongo, Mongoose, Axios, Cheerio"]
+    }, {
+      imageName: "react-burger-builder",
+      img: "./assets/images/burger.png",
+      info: "A React app that uses Google Firebase to store orders that a customer makes.",
+      githubLink: "",
+      deployedLink: "https://pacific-retreat-11922.herokuapp.com/",
+      technologies: ["React", "React Router", "JavaScript", "Firebase", "Axios"]
+    }, {
+      imageName: "react-youtube",
+      img: "./assets/images/youtube.png",
+      info: "A React app that takes the user input and automatically searches the Youtube API" +
+        " whenever the user types.",
+      githubLink: "",
+      deployedLink: "",
+      technologies: ["React", "JavaScript", "Bootstrap", "Youtube API"]
+    }, {
+      imageName: "giphy-movie-search",
+      img: "./assets/images/giphy.png",
+      info: "A web app which uses the Giphy API to search for movie GIFs (or any GIF for that" +
+        " matter). Entering a search term will add a new GIF button. Clicking on the GIFs" +
+        " will play/pause them! Enjoy!",
+      githubLink: "https://github.com/khoernlein90/GifTastic",
+      deployedLink: "https://khoernlein90.github.io/GifTastic/",
+      technologies: [
+        "HTML",
+        "CSS",
+        "Bootstrap",
+        "Javascript",
+        "jQuery",
+        "Giphy",
+        "API",
+        "Ajax"
+      ]
+    }, {
+      imageName: "hangman",
+      img: "./assets/images/hangman.png",
+      info: "A basic Hangman game where the user will have 10 guesses to try and figure out t" +
+        "he word in this animal themed game!",
+      githubLink: "https://github.com/khoernlein90/Hangman-Game",
+      deployedLink: "https://khoernlein90.github.io/Hangman-Game/",
+      technologies: ["HTML", "CSS", "Bootstrap", "Javascript"]
+    }, {
+      imageName: "crystal-collector",
+      img: "./assets/images/crystal.png",
+      info: "A fun browser game where the user has to try and make their score match the rand" +
+        "om number! ",
+      githubLink: "https://github.com/khoernlein90/CrystalCollector",
+      deployedLink: "https://khoernlein90.github.io/CrystalCollector/",
+      technologies: ["HTML", "CSS", "Bootstrap", "JavaScript", "jQuery"]
+    }, {
+      imageName: "train-scheduler",
+      img: "./assets/images/train.png",
+      info: "A web app where the user can schedule mock trains. The trains are timed and stor" +
+        "ed using Google Firebase.",
+      githubLink: "",
+      deployedLink: "",
+      technologies: [
+        "HTML",
+        "CSS",
+        "Bootstrap",
+        "Javascript",
+        "jQuery",
+        "Google",
+        "Firebase"
+      ]
+    }];
     for (let image of images) {
       const img = $("<img>");
       const a = $("<a>")
         .addClass("portfolio-image " + image.imageName)
         .attr("data-modal", image.imageName);
-      img.attr({src: image.img, "data-modal": image.imageName, class: "the-image"});
+      img.attr({
+        src: image.img,
+        "data-modal": image.imageName,
+        class: "the-image"
+      });
       a.append(img);
       $(".my-apps").append(a);
 
-      const modalDiv = $("<div>").attr({id: image.imageName, class: "modal"});
+      const modalDiv = $("<div>").attr({
+        id: image.imageName,
+        class: "modal"
+      });
       const modalContent = $("<div>").addClass("modal-content");
       const modalHeader = $("<div>")
         .addClass("modal-header")
@@ -132,10 +144,18 @@ $(document)
       modalBody.append(modalImg, modalInfo, techList);
       const modalFooter = $("<div>").addClass("modal-footer");
       const githubLink = $("<a>")
-        .attr({href: image.githubLink, target: "_blank", class: "modal-footer-button"})
+        .attr({
+          href: image.githubLink,
+          target: "_blank",
+          class: "modal-footer-button"
+        })
         .append('<i class="fab fa-github"></i> Github Repo');
       const deployedLink = $("<a>")
-        .attr({href: image.deployedLink, target: "_blank", class: "modal-footer-button"})
+        .attr({
+          href: image.deployedLink,
+          target: "_blank",
+          class: "modal-footer-button"
+        })
         .append('<i class="fas fa-arrow-right"></i> Deployed App');
       modalFooter.append(githubLink, deployedLink);
       modalContent.append(modalHeader, modalBody, modalFooter);
@@ -167,32 +187,36 @@ $(document)
     if ($(window).width() < 500) {
       $(".about-me")
         .waypoint(function (dir) {
-          $(".crystal-collector").addClass("animated bounceInUp");
-          $(".giphy-movie-search").addClass("animated bounceInRight");
-          $(".hangman").addClass("animated bounceInDown");
-          $(".react-youtube").addClass("animated bounceInDown");
-          $(".react-burger-builder").addClass("animated bounceInLeft");
-          $(".train-scheduler").addClass("animated bounceInRight");
-          $(".nyt-react").addClass("animated bounceInLeft");
           $(".react-clicky-game").addClass("animated bounceInLeft");
-        }, {offset: "-600px"});
+          $(".nyt-react").addClass("animated bounceInDown");
+          $(".mongo-scraper").addClass("animated bounceInRight")
+          $(".react-burger-builder").addClass("animated bounceInLeft");
+          $(".react-youtube").addClass("animated bounceInDown");
+          $(".giphy-movie-search").addClass("animated bounceInRight");
+          $(".hangman").addClass("animated bounceInLeft");
+          $(".crystal-collector").addClass("animated bounceInUp");
+          $(".train-scheduler").addClass("animated bounceInRight");
+        }, {
+          offset: "-600px"
+        });
     } else {
       $(".about-me")
         .waypoint(function (dir) {
-          $(".crystal-collector").addClass("animated bounceInUp");
+          $(".react-clicky-game").addClass("animated bounceInLeft");
+          $(".nyt-react").addClass("animated bounceInDown");
+          $(".mongo-scraper").addClass("animated bounceInRight")
+          $(".react-burger-builder").addClass("animated bounceInLeft");
+          $(".react-youtube").addClass("animated bounceInDown");
           $(".giphy-movie-search").addClass("animated bounceInRight");
           $(".hangman").addClass("animated bounceInLeft");
-          $(".react-youtube").addClass("animated bounceInDown");
-          $(".react-burger-builder").addClass("animated bounceInLeft");
+          $(".crystal-collector").addClass("animated bounceInUp");
           $(".train-scheduler").addClass("animated bounceInRight");
-          $(".nyt-react").addClass("animated bounceInLeft");
-          $(".react-clicky-game").addClass("animated bounceInLeft");
 
         });
     }
 
     $('a[href*="#"]')
-    // Remove links that don't actually link to anything
+      // Remove links that don't actually link to anything
       .not('[href="#"]')
       .not('[href="#0"]')
       .click(function (event) {
@@ -200,9 +224,9 @@ $(document)
         if (location.pathname.replace(/^\//, "") == this.pathname.replace(/^\//, "") && location.hostname == this.hostname) {
           // Figure out element to scroll to
           var target = $(this.hash);
-          target = target.length
-            ? target
-            : $("[name=" + this.hash.slice(1) + "]");
+          target = target.length ?
+            target :
+            $("[name=" + this.hash.slice(1) + "]");
           // Does a scroll target exist?
           if (target.length) {
             // Only prevent default if animation is actually gonna happen
