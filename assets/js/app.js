@@ -15,7 +15,7 @@ $(document)
       img: "./assets/images/clicky.png",
       info: "A React game where the user has their memory tested! The user clicks an image, a" +
         "nd then needs to keep clicking images that they haven't clicked yet.",
-      githubLink: "",
+      githubLink: "https://github.com/khoernlein90/react-click-game",
       deployedLink: "https://rocky-beach-84769.herokuapp.com/",
       technologies: ["React", "JavaScript", "CSS"]
     }, {
@@ -24,8 +24,8 @@ $(document)
       info: "A Fullstack React application where the user can search the New York Times for a" +
         "rticles of their choosing. The user can also save articles of interest to a data" +
         "base.",
-      githubLink: "",
-      deployedLink: "",
+      githubLink: "https://github.com/khoernlein90/NYT_React",
+      deployedLink: "https://safe-oasis-63865.herokuapp.com/",
       technologies: [
         "React",
         "React Router",
@@ -39,14 +39,14 @@ $(document)
       imageName: "mongo-scraper",
       img:"./assets/images/mongoScraper.png",
       info: "A Full Stack app that scrapes the League of Legends page of reddit. The user also has the ability to save articles of interest to MongoDB. The user can also add comments on the articles that they save.",
-      githubLink: "",
+      githubLink: "https://github.com/khoernlein90/webScrape",
       deployedLink: "https://enigmatic-peak-65650.herokuapp.com/",
       technologies: ["HTML, CSS, Express, Handlebars, Mongo, Mongoose, Axios, Cheerio"]
     }, {
       imageName: "react-burger-builder",
       img: "./assets/images/burger.png",
       info: "A React app that uses Google Firebase to store orders that a customer makes.",
-      githubLink: "",
+      githubLink: "https://github.com/khoernlein90/react-burger-builder",
       deployedLink: "https://pacific-retreat-11922.herokuapp.com/",
       technologies: ["React", "React Router", "JavaScript", "Firebase", "Axios"]
     }, {
@@ -54,7 +54,7 @@ $(document)
       img: "./assets/images/youtube.png",
       info: "A React app that takes the user input and automatically searches the Youtube API" +
         " whenever the user types.",
-      githubLink: "",
+      githubLink: "https://github.com/khoernlein90/react-youtube",
       deployedLink: "",
       technologies: ["React", "JavaScript", "Bootstrap", "Youtube API"]
     }, {
