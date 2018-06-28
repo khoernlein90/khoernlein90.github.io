@@ -154,7 +154,7 @@ $(document).ready(function() {
       .text("X");
     modalHeader.append(span);
     const modalBody = $("<div>").addClass("modal-body");
-    const modalImg = $("<img>").attr("src", image.img);
+    const modalImg = $("<img class='modal-img'>").attr("src", image.img);
     const modalInfo = $("<p>").html(
       "<span class='description'>Description: </span>" + image.info
     );
