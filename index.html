@@ -1,81 +1,144 @@
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Kyle Hoernlein</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.12/css/all.css"
+      integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/modal.css" />
+    <link rel="stylesheet" href="./assets/css/dropdown.css" />
+    <link rel="stylesheet" href="./assets/css/queries.css" />
+  </head>
 
-    <head>
-        <meta charset="UTF-8">
-        <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1.0"
-        >
-        <meta
-            http-equiv="X-UA-Compatible"
-            content="ie=edge"
-        >
-        <title>Kyle Hoernlein</title>
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
-        <link rel="stylesheet" href="./assets/css/reset.css">
-        <link rel="stylesheet" href="./assets/css/style.css">
-        <link rel="stylesheet" href="./assets/css/modal.css">
-        <link rel="stylesheet" href="./assets/css/dropdown.css">
-        <link rel="stylesheet" href="./assets/css/queries.css">
-    </head>
-
-    <body>
-        <div class="container">
-            <header class="item">
-                <nav>
-                    <a
-                        class="navbar-brand"
-                        href="#"
-                    >
-                        <i class="fas fa-code"></i>
-                        <span class="first-name red">Kyle</span>
-                        Hoernlein
-                    </a>
-                    <ul class="nav-items">
-                        <li>
-                            <a href="#about-me">ABOUT ME</a>
-                        </li>
-                        <li>
-                            <a href="#my-apps">THINGS I'VE BUILT</a>
-                        </li>
-                        <li>
-
-                            <div class="dropdown">
-                                <a class="dropbtn">CONTACT</a>
-                                <div class="dropdown-content">
-                                    <a
-                                        href="https://github.com/khoernlein90"
-                                        target="_blank"
-                                    >
-                                        <i class="fab fa-github"></i>
-                                    </a>
-                                    <a
-                                        href="https://www.linkedin.com/in/kyle-hoernlein/"
-                                        target="_blank"
-                                    >
-                                        <i class="fab fa-linkedin"></i>
-                                    </a>
-                                    <a href="mailto:khoernlein90@gmail.com">
-                                        <i class="far fa-envelope"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                </nav>
-                <div class="main-info-box">
-                    <p>
-                        <span class="purple">const</span>
-                        <span class="red">fullStackDeveloper</span>
-                        =
-                    </p>
-                    <p class="one-indent">
-                        <span class="red"></span>
-                    </p>
+  <body>
+    <div class="container">
+      <header class="item">
+        <nav>
+          <a class="navbar-brand" href="#">
+            <i class="fas fa-code"></i>
+            <span class="first-name red">Kyle</span>Hoernlein
+          </a>
+          <ul class="nav-items">
+            <li>
+              <a href="#about-me">ABOUT ME</a>
+            </li>
+            <li>
+              <a href="#my-apps">THINGS I'VE BUILT</a>
+            </li>
+            <li>
+              <div class="dropdown">
+                <a class="dropbtn">CONTACT</a>
+                <div class="dropdown-content">
+                  <a href="https://github.com/khoernlein90" target="_blank">
+                    <i class="fab fa-github"></i>
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/in/kyle-hoernlein/"
+                    target="_blank"
+                  >
+                    <i class="fab fa-linkedin"></i>
+                  </a>
+                  <a href="mailto:khoernlein90@gmail.com">
+                    <i class="far fa-envelope"></i>
+                  </a>
                 </div>
-            </header>
+              </div>
+            </li>
+          </ul>
+        </nav>
+        <div class="main-info-box">
+          <p>
+            <span class="purple">const</span>
+            <span class="red">fullStackDeveloper</span> = {
+          </p>
+          <p class="one-indent"><span class="red">firstName</span>: "Kyle",</p>
+          <p class="one-indent">
+            <span class="red">lastName</span>: "Hoernlein",
+          </p>
+          <p class="one-indent">
+            <span class="red">hobbies</span>: ["Coding", "Video Games"]
+          </p>
+          <p>};</p>
         </div>
-    </body>
+      </header>
+      <section class="about-me" id="about-me">
+        <h2>A Little About Myself</h2>
+        <p>
+          I grew up in Old Bridge, New Jersey and I have lived in the same area
+          for the majority of my life. I played a lot of sports while growing up
+          which I think has attributed to my competitive nature. I really enjoy
+          trying to push myself and learn new things.
+        </p>
+        <p>
+          I graduated from Montclair State University with a Bachelors in
+          Justice Studies. I initially had plans to become a police officer, but
+          after some soul searching I realized that wasn't the right path for
+          me. This realization ultimately led me to the Rutgers Coding Bootcamp
+          for Fullstack Web Development.
+        </p>
+        <p>
+          After graduating from the Rutgers Coding Bootcamp, I became a Teaching
+          Assistant and a tutor for the bootcamp. I'm constantly trying to
+          improve my skills and I really enjoy trying to learn new languages.
+        </p>
+      </section>
+      <section id="my-apps">
+        <h2>Cool things i've built</h2>
+        <div class="my-apps"></div>
+      </section>
+
+      <footer>
+        <ul class="footer-list">
+          <li>
+            <a
+              class="footer-icons"
+              href="https://github.com/khoernlein90"
+              target="_blank"
+            >
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              class="footer-icons"
+              href="https://www.linkedin.com/in/kyle-hoernlein/"
+              target="_blank"
+            >
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+          <li>
+            <a class="footer-icons" href="mailto:khoernlein90@gmail.com">
+              <i class="far fa-envelope"></i>
+            </a>
+          </li>
+        </ul>
+        <p class="copyright">&copy; 2018 Kyle Hoernlein.</p>
+      </footer>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/js/jquery.waypoints.min.js"></script>
+    <script src="./assets/js/app.js"></script>
+  </body>
 </html>
